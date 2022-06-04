@@ -8,11 +8,11 @@ public class Main {
         post.patronymic = "Иванович";
         post.phone = "+7(999)999_9999";
         post.surname = "Иванов";
-        subscription = true;
+        post.subscription = true;
         post.birthday = new FormDate();
-        post.birthday.day = String.valueOf(13);
-        post.birthday.month = String.valueOf(6);
-        post.birthday.year = String.valueOf(1999);
+        post.birthday.day = 13;
+        post.birthday.month = 6;
+        post.birthday.year = 1999;
     }
 
 }
